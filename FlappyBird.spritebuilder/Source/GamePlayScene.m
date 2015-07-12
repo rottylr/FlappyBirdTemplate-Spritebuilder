@@ -20,5 +20,6 @@
 - (void)touchBegan:(CCTouch *)touch withEvent:(CCTouchEvent *)event {
     // this will get called every time the player touches the screen
     [character flap];
+    [self addObstacle];
 }
 @end
